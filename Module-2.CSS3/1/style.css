@@ -1,0 +1,24 @@
+h2{
+    color: rgb(136,23,233);
+    background-color: rgb(223, 226, 43);
+    height: 50px;
+    width: 500px;
+    font-family: 'Festive', cursive;
+}
+h1{
+    color: rgb(53, 53, 61);
+    background-color: rgb(220, 214, 226);
+    height: 100px;
+    width: 500px;
+    font-family: 'Festive', cursive;
+font-family: 'Rampart One', cursive;
+}
+h3{
+    color: brown;
+    background-color: burlywood;
+    height: 50px;
+    width: 500px;
+    font-family: 'Festive', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Rampart One', cursive;
+}

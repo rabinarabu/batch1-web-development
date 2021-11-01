@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class vs ID</title>
+    <style>
+        #myHeader{
+            color: black;
+            background-color: cyan;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .myCountry{
+            color: black;
+            background-color: brown;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .cities{
+            color: brown;
+            background-color: chartreuse;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Class = many many used in html elements in a page </h1>
+    <h1>ID = not many, id name must only be used by one HTML within the page</h1>
+
+    <h1 id="myHeader">cities</h1>
+    <p>Tokiyo is the capital of Japan</p>
+
+    <h2 class="myCountry">Dhaka</h2>
+    <p>Dhaka is the capital of Bangladesh</p>
+
+    <h2 class="cities">Paris</h2>
+    <p>Paris is the capital of France</p>
+</body>
